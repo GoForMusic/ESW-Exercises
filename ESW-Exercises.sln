@@ -6,6 +6,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESW-Exercise2", "ESW-Exerci
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESW-Exercise3", "ESW-Exercise3\ESW-Exercise3.vcxproj", "{8067E66F-95CE-4A68-A9A4-6DF304DD8F69}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESW-Exercise4", "ESW-Exercise4\ESW-Exercise4.vcxproj", "{0438E3AD-40FC-4CEA-9203-A8B0D29D1A95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -38,5 +40,13 @@ Global
 		{8067E66F-95CE-4A68-A9A4-6DF304DD8F69}.Release|Win32.Build.0 = Release|Win32
 		{8067E66F-95CE-4A68-A9A4-6DF304DD8F69}.Release|x64.ActiveCfg = Release|x64
 		{8067E66F-95CE-4A68-A9A4-6DF304DD8F69}.Release|x64.Build.0 = Release|x64
+		{0438E3AD-40FC-4CEA-9203-A8B0D29D1A95}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0438E3AD-40FC-4CEA-9203-A8B0D29D1A95}.Debug|Win32.Build.0 = Debug|Win32
+		{0438E3AD-40FC-4CEA-9203-A8B0D29D1A95}.Debug|x64.ActiveCfg = Debug|x64
+		{0438E3AD-40FC-4CEA-9203-A8B0D29D1A95}.Debug|x64.Build.0 = Debug|x64
+		{0438E3AD-40FC-4CEA-9203-A8B0D29D1A95}.Release|Win32.ActiveCfg = Release|Win32
+		{0438E3AD-40FC-4CEA-9203-A8B0D29D1A95}.Release|Win32.Build.0 = Release|Win32
+		{0438E3AD-40FC-4CEA-9203-A8B0D29D1A95}.Release|x64.ActiveCfg = Release|x64
+		{0438E3AD-40FC-4CEA-9203-A8B0D29D1A95}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal

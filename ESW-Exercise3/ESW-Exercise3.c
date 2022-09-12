@@ -76,7 +76,7 @@ void exe3()
 void exe4()
 {
     char line[MAX_LENGTH];
-    char upper[MAX_LENGTH]; // {'\0'} - to not show the memory
+    char upper[MAX_LENGTH]={'\0'}; // {'\0'} - to not show the memory
     int line_length;
 
     /* Use a while loop to read input lines as long as there are any.
