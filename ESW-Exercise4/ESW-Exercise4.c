@@ -1,5 +1,8 @@
+#include <stdbool.h>
 #include <stdio.h>
 #include "myStr.h"
+
+bool das=true;
 
 void testSTRDUP()
 {
@@ -11,6 +14,7 @@ void testSTRDUP()
 
 int main()
 {
+    
     //first function
     //printf("%d \n",my_strlen("Test"));
     //compare two strings

@@ -1,10 +1,15 @@
 ﻿#include "myStr.h"
 
+#include <stdbool.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
+extern bool das;
+
 int my_strlen(const char* str)
 {
+    printf("%d",das);
     int count=0;
     while(*str!='\0')
     {
