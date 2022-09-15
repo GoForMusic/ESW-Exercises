@@ -1,6 +1,7 @@
 ﻿#include "myStr.h"
 
 #include <stdlib.h>
+#include <string.h>
 
 int my_strlen(const char* str)
 {
@@ -45,7 +46,7 @@ char* my_strcpy(char* dest, const char* src)
 
 char* my_strdup(const char* str)
 {
-    char* returnChar = malloc(sizeof(char));
-        my_strcpy(&returnChar, &str);
+    char* returnChar = malloc(sizeof(char)*strlen(str)+1);
+        my_strcpy(returnChar, str);
     return returnChar;
 }
