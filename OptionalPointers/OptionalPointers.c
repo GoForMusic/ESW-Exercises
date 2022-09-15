@@ -1,26 +1,30 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-void passByCopy(int a)
+typedef struct Vector2
 {
-    a += 1;
-}
-
-void passByPointer(int *a)
-{
-    (*a) += 1; // De-reference then increment.
-}
+    int x,y;
+} Vector2;
 
 int main()
 {
-    int a = 0;
-    // Passing by copy, creates a copy of the 'a' object, then sends it to the function.
-    passByCopy(a);
-    printf("%d",a); // Outputs 0
-    
-    // Passing by pointer, does almost the same thing as a pass by reference, except a 
-    // pointer value can by NULL, while a reference can't.
-    passByPointer(&a);
-    printf("%d",a); // Outputs 2
+    Vector2* distance = malloc(sizeof(Vector2));
+    Vector2* target = malloc(sizeof(Vector2));
 
-    int *b, *c;
+    distance->x=9;
+    distance->y=9;
+    
+    target->x=1;
+    target->y=1;
+
+    printf("x=%d, y=%d", distance->x-target->x, distance->y-target->y);
+
+    free(distance);
+    distance->x=9;
+    distance->y=9;
+    
+    printf("x=%d, y=%d", distance->x, distance->y);
+    
+    
+    return 0;
 }

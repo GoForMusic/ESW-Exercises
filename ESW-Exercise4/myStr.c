@@ -1,5 +1,7 @@
 ﻿#include "myStr.h"
 
+#include <stdlib.h>
+
 int my_strlen(const char* str)
 {
     int count=0;
@@ -29,11 +31,21 @@ int my_strcmp(const char* str1, const char* str2)
 
 char* my_strcpy(char* dest, const char* src)
 {
+    char *start = dest;
+    while(*src != '\0')
+    {
+        *dest = *src;
+        dest++;
+        src++;
+    }
 
-    return dest;
+    *dest = '\0'; // add '\0' at the end
+    return start;
 }
 
 char* my_strdup(const char* str)
 {
-    return str;
+    char* returnChar = malloc(sizeof(char));
+        my_strcpy(&returnChar, &str);
+    return returnChar;
 }
