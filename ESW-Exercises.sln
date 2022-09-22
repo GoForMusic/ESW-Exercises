@@ -10,6 +10,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESW-Exercise4", "ESW-Exerci
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OptionalPointers", "OptionalPointers\OptionalPointers.vcxproj", "{C82A2A11-594A-4AD8-953B-47BE80F7C627}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP-Test", "OOP-Test\OOP-Test.vcxproj", "{1A1DF6CF-D9C7-4563-9A3C-821A4A8AE92A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -58,5 +60,13 @@ Global
 		{C82A2A11-594A-4AD8-953B-47BE80F7C627}.Release|Win32.Build.0 = Release|Win32
 		{C82A2A11-594A-4AD8-953B-47BE80F7C627}.Release|x64.ActiveCfg = Release|x64
 		{C82A2A11-594A-4AD8-953B-47BE80F7C627}.Release|x64.Build.0 = Release|x64
+		{1A1DF6CF-D9C7-4563-9A3C-821A4A8AE92A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A1DF6CF-D9C7-4563-9A3C-821A4A8AE92A}.Debug|Win32.Build.0 = Debug|Win32
+		{1A1DF6CF-D9C7-4563-9A3C-821A4A8AE92A}.Debug|x64.ActiveCfg = Debug|x64
+		{1A1DF6CF-D9C7-4563-9A3C-821A4A8AE92A}.Debug|x64.Build.0 = Debug|x64
+		{1A1DF6CF-D9C7-4563-9A3C-821A4A8AE92A}.Release|Win32.ActiveCfg = Release|Win32
+		{1A1DF6CF-D9C7-4563-9A3C-821A4A8AE92A}.Release|Win32.Build.0 = Release|Win32
+		{1A1DF6CF-D9C7-4563-9A3C-821A4A8AE92A}.Release|x64.ActiveCfg = Release|x64
+		{1A1DF6CF-D9C7-4563-9A3C-821A4A8AE92A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
