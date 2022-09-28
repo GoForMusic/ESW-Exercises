@@ -16,10 +16,10 @@ typedef struct ListNode_t
     struct ListNode_t* next;
 };
 
-typedef struct LinkedList_t* LinkedList;
-typedef struct ListNode_t* ListNode;
+typedef struct ListNode_t* head;
+typedef struct ListNode_t* current;
 
-LinkedList LinkedList_create(void);
+head LinkedList_create(void);
 LinkedListReturnCode LinkedList_destroy(LinkedList list);
 LinkedListReturnCode LinkedList_push(LinkedList list,void* item);
 void* LinkedList_pull(LinkedList list);

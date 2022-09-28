@@ -36,13 +36,15 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClCompile Include="Hal\HAL.c" />
     <ClCompile Include="Production.c" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="ProductionTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Hal\HAL.h" />
     <ClInclude Include="Production.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
