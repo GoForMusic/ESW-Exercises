@@ -12,6 +12,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OptionalPointers", "Optiona
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP-Test", "OOP-Test\OOP-Test.vcxproj", "{1A1DF6CF-D9C7-4563-9A3C-821A4A8AE92A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESW-Test", "ESW-Test\ESW-Test.vcxproj", "{B67C1B0E-980C-4F04-BE9E-E4002E4D5D60}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESW-Exercise6", "ESW-Exercise6\ESW-Exercise6.vcxproj", "{40A9EF11-B436-45E0-8AB7-A5F83F61AFB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -68,5 +72,21 @@ Global
 		{1A1DF6CF-D9C7-4563-9A3C-821A4A8AE92A}.Release|Win32.Build.0 = Release|Win32
 		{1A1DF6CF-D9C7-4563-9A3C-821A4A8AE92A}.Release|x64.ActiveCfg = Release|x64
 		{1A1DF6CF-D9C7-4563-9A3C-821A4A8AE92A}.Release|x64.Build.0 = Release|x64
+		{B67C1B0E-980C-4F04-BE9E-E4002E4D5D60}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B67C1B0E-980C-4F04-BE9E-E4002E4D5D60}.Debug|Win32.Build.0 = Debug|Win32
+		{B67C1B0E-980C-4F04-BE9E-E4002E4D5D60}.Debug|x64.ActiveCfg = Debug|x64
+		{B67C1B0E-980C-4F04-BE9E-E4002E4D5D60}.Debug|x64.Build.0 = Debug|x64
+		{B67C1B0E-980C-4F04-BE9E-E4002E4D5D60}.Release|Win32.ActiveCfg = Release|Win32
+		{B67C1B0E-980C-4F04-BE9E-E4002E4D5D60}.Release|Win32.Build.0 = Release|Win32
+		{B67C1B0E-980C-4F04-BE9E-E4002E4D5D60}.Release|x64.ActiveCfg = Release|x64
+		{B67C1B0E-980C-4F04-BE9E-E4002E4D5D60}.Release|x64.Build.0 = Release|x64
+		{40A9EF11-B436-45E0-8AB7-A5F83F61AFB5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{40A9EF11-B436-45E0-8AB7-A5F83F61AFB5}.Debug|Win32.Build.0 = Debug|Win32
+		{40A9EF11-B436-45E0-8AB7-A5F83F61AFB5}.Debug|x64.ActiveCfg = Debug|x64
+		{40A9EF11-B436-45E0-8AB7-A5F83F61AFB5}.Debug|x64.Build.0 = Debug|x64
+		{40A9EF11-B436-45E0-8AB7-A5F83F61AFB5}.Release|Win32.ActiveCfg = Release|Win32
+		{40A9EF11-B436-45E0-8AB7-A5F83F61AFB5}.Release|Win32.Build.0 = Release|Win32
+		{40A9EF11-B436-45E0-8AB7-A5F83F61AFB5}.Release|x64.ActiveCfg = Release|x64
+		{40A9EF11-B436-45E0-8AB7-A5F83F61AFB5}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
